@@ -16,9 +16,43 @@
 * IAM
 * SNS
 * SQS
+* S3
 
 ## VPC - Virtual Private Cloud
 
+## S3 - Simple Storage Service
+* Object storage
+* Files can be up to 5TB
+* "unlimited" file storage
+* Files are stored in *Buckets* (Folders)
+* S3 is a **global** namespace, so any bucket needs to have a unique name
+* typical address looks like this: https://s3-eu-west-1.amazonaws.com/acloudguru
+* A successful uploaded: HTTP 200 OK
+* Built for 99,99% availability
+* SLA for 99.9% availability
+* Amazon guarantees 99,9 * 11 durabily (99,99999999999)
+
+### Data Consistency Model
+* Read after Write consistency for PUTS (for new objects)
+* Eventual Consistency for overwrite PUTS and DELETES (can take some time to propagate)
+
+### Key-Value store
+* Key
+* Value
+* Version ID
+* Metadata
+* Subresources
+
+### Storage tiers
+* S3: 99,99% availability, 99,99999999999% durability
+* S3-IA (Infrequently Accessed): Storage cost is low cost, but additional costs for retrieval (but direct retrieval)
+* Reduced Redundancy Storage: less durability (99,99%) for example, thumbnails that you can regenerate if missing
+* Glacier: very cheap, but takes 3-5 hours to retreive
+
+### Notes
+Files are stored lexographically (alphabetic order). 
+This includes geographical storing.
+So storing many files with very similar names at the sametime might run into write bottleneck.
 
 ## IAM - Identity Access Management
 It is not restricted to a region, always global.
