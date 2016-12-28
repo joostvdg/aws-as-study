@@ -21,12 +21,23 @@
 
 
 ## IAM - Identity Access Management
+It is not restricted to a region, always global.
+You start with a root account, the original account bound by email address.
+
+New users have no roles, group or permissions.
+Any credential they have, you get once and only once.
+So either download them or store them. After that you have to regenerate them.
+
 * Centralised control of your AWS account
 * Shared access to your AWS account
 * Granular permission
 * Identity Federarion (AD, Facebook, LinkedIn, OpenID, OAUTH)
 * Multifactor Authentication (**MFA**)
 * And other standard I&A stuff
+
+### Login Types
+* Programmatically (via Access Key)
+* Console (via the web GUI)
 
 ### Terms
 * **Users**: End Users (people)
