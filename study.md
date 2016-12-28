@@ -18,3 +18,25 @@
 * **Lambda**: serverless functions
 * **Lightsail**: press of the button clouds? **Not in exam**
 
+## Storage
+* **S3** (**S**imple **S**torage **S**ervice): virtual disk, **object** storage
+* **Glacier**: cold storage / data archives
+* **EFS** (**E**lastic **F**ile **S**torage): **block** storage
+* **Storage Gateway**: connection gateway between **S3** and your on premise network (via VM?)
+
+## Databases
+* **RDS** (**R**elational **D**atabase **S**ervice): standard RDBMS
+* **DynamoDB**: **NoSQL** database
+* **Redshift**: datawarehouse solution
+* **Elasticache**: caching service
+
+## Migration
+* **Snowball**: appliance for migrating your on premise storage to AWS (soon also includes AWS services for computing power)
+* **DMS**: for migrating databases to AWS, allows you to migrate from a on premise oracle to a different database in AWS
+* **SMS** (**S**erver **M**igration **S**ervice): for migrating virtual machines (like VMWare)
+
+## Analytics
+* **Athena**: for json analysis
+* **EMR**: elastic map reduce (log analysis, etc)
+* **Cloud Search**: fully managed service managed by AWS
+* **Elastic Search**: I assume it uses ES underneath
