@@ -40,3 +40,6 @@
 * **EMR**: elastic map reduce (log analysis, etc)
 * **Cloud Search**: fully managed service managed by AWS
 * **Elastic Search**: I assume it uses ES underneath
+* **Kinesis**: big data analysis (streams)
+* **Data pipeline**: move data from service X to service Y
+* **Quick Sight**: business analytics tool
