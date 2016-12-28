@@ -17,9 +17,22 @@
 * SNS
 * SQS
 
-## VPC
+## VPC - Virtual Private Cloud
 
-## IAM
+
+## IAM - Identity Access Management
+* Centralised control of your AWS account
+* Shared access to your AWS account
+* Granular permission
+* Identity Federarion (AD, Facebook, LinkedIn, OpenID, OAUTH)
+* Multifactor Authentication (**MFA**)
+* And other standard I&A stuff
+
+### Terms
+* **Users**: End Users (people)
+* **Groups**: A collection of users under one set of permissions
+* **Roles**: 
+* **Policies**: a document containing permissions for a user, group or role
 
 ## SNS
 
