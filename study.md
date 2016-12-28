@@ -2,8 +2,12 @@
 
 ## Important sections
 * VPC
+* IAM
 
 ## VPC
+
+## IAM
+
 
 ## Networking & Content Delivery
 * **VPC**
@@ -43,3 +47,26 @@
 * **Kinesis**: big data analysis (streams)
 * **Data pipeline**: move data from service X to service Y
 * **Quick Sight**: business analytics tool
+
+## Security & Identity
+* **IAM**: fundamental identity federation service
+* **Inspector**: examines VM's
+* **Certificate Manager**: for SSL cert's
+* **Directory Service**: for Active Directory
+* **WAF** (**W**eb **A**pplication **F**irewall): security filters for applications
+* **Artifacts**: documentation? (Compliance reports) compliance documents (for ISO xxx)
+
+## Management Tools
+* **Cloud Watch**: used to monitor the performance of your AWS stuff
+* **Cloud Formation**: infrastructure as code! (*"Fuck Yeah!"* - free by me) (maybe use the deep dive course?!)
+* **Cloud Trail**: (log) audit trail
+* **Opsworks**: automating deployments using Chef (mostly for sysops)
+* **Config (Manager)**: auditing your own env. you setup alerts
+* **Trusted Advisor**: paperclip for AWS
+
+## Application Services
+* **Step Functions**: visualizing what is going on in your own applications
+* **SWF** (**S**imple **W**ork**f**low Services): for work flow's (like logistics)
+* **API Gateway**: for API management for backend services / LAMBDA etc.
+* **AppStream**: for streaming applications to desktop users
+* **Elastic Transcoder**: for transcoding data (or video) streams into all usable formats
