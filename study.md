@@ -1,13 +1,29 @@
 # Study notes
 
 ## Important sections
+* Messaging
+* Deskopt & App Streaming
+* Security & Identity
+* Management Tools
+* Storage
+* Database
+* Network & Content Delivery
+* Compute
+* AWS Global Infrastructure (Regions + **A**vailability **Z**ones)
+
+## Important topics
 * VPC
 * IAM
+* SNS
+* SQS
 
 ## VPC
 
 ## IAM
 
+## SNS
+
+## SQS
 
 ## Networking & Content Delivery
 * **VPC**
@@ -70,3 +86,39 @@
 * **API Gateway**: for API management for backend services / LAMBDA etc.
 * **AppStream**: for streaming applications to desktop users
 * **Elastic Transcoder**: for transcoding data (or video) streams into all usable formats
+
+## Developer Tools
+* **CodeCommit**: SCM
+* **CodeBuild**: for compiling your code
+* **CodeDeploy**: for deploying your code to your AWS stuff
+* **CodePipeline**: pipeline as code for AWS
+
+## Mobile Services
+* **Mobile Hub**: Basic stuff for the Mobile apps separate console for AWS
+* **Cognito**: user credentials for mobile (like using OpendID, OOAUTH etc)
+* **DeviceFarm**: like selenium grid
+* **Mobile Analytics**: App usage data
+* **PinPoint**: user data of your apps
+
+## Business Productivity
+* **WorkDocs**: online docs
+* **WorkMail**: online mail
+
+## Internet of Things
+* **IoT**: for managed all the different devices
+
+## Desktop & App Streaming
+* **Workspaces**: for having a workspace, like codenvy, in the cloud
+* **AppStream 2.0**: streaming deskopt application to users
+
+## Artificial Intelligence
+* **Alexa**: voice service in the cloud (Amazon Echo)
+* **Lex**: the api to alexa
+* **Polly**: Text to Speach
+* **Machine Learning**: allows you predict data based upon previous performance
+* **Rekognition**: feed an image and it will return data, tags or facial regocnition (% based)
+
+## Messaging
+* **SNS** (**S**imple **N**otification **S**ervices): via email, sms, or publush to http endpoints
+* **SQS**: application queue system
+* **SES**: Email services
