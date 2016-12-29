@@ -20,6 +20,10 @@
 
 ## VPC - Virtual Private Cloud
 
+## CloudFront - AWS Content Delivery Network
+* for Edge locations
+* not restricted to AWS resources
+
 ## S3 - Simple Storage Service
 * Object storage
 * Files can be up to 5TB
