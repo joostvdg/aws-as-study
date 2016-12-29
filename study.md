@@ -24,6 +24,10 @@
 * for Edge locations
 * not restricted to AWS resources
 
+### Types of Distribution (Delivery Methods)
+* Web: for media accessed via http or https (websites and its content)
+* RTMP: for streaming media files in the Adobe Flash Media Server's RTMP protocol (like Spotify!)
+
 ## S3 - Simple Storage Service
 * Object storage
 * Files can be up to 5TB
