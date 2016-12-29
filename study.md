@@ -40,6 +40,19 @@
 * SLA for 99.9% availability
 * Amazon guarantees 99,9 * 11 durabily (99,99999999999)
 
+### Encryption
+* In Transit: via SSL/TLS
+
+At Rest
+
+* Server Side
+  * S3 Managed Keys - SSE-S3
+  * AWS Key Management Service, Managed Keys - SSE-KMS (incl. audit trail)
+  * Server Side Encryption With Customer Provided Keys - SSE-C (you provide the keys)
+* Client Side Encryption
+
+
+
 ### Data Consistency Model
 * Read after Write consistency for PUTS (for new objects)
 * Eventual Consistency for overwrite PUTS and DELETES (can take some time to propagate)
