@@ -122,6 +122,9 @@ So either download them or store them. After that you have to regenerate them.
 * **Glacier**: cold storage / data archives
 * **EFS** (**E**lastic **F**ile **S**torage): **block** storage
 * **Storage Gateway**: connection gateway between **S3** and your on premise network (via VM?)
+  * Gateway Stored Volumes: data stays on premised and then creates a backup of it on S3
+  * Gateway Cached Volumes: your most accessed data stays cached on premise, all of it is on S3
+  * Gateway Virtual Tape Library (VTL): limitless virtual tapes, can be on S3 or on Glacier (Virtual Tape Shelf), uses the iSSCI interface
 
 ## Databases
 * **RDS** (**R**elational **D**atabase **S**ervice): standard RDBMS
