@@ -20,7 +20,7 @@
 
 ## EC2
 * **UserData:** ability to run scripts when first launching your EC2 instance (note, launching, not starting!)
-    * For more info [read the user guild](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html).
+    * For more info [read the user guide](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html).
 
 ## VPC - Virtual Private Cloud
 
