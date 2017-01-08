@@ -21,6 +21,9 @@
 ## EC2
 * **UserData:** ability to run scripts when first launching your EC2 instance (note, launching, not starting!)
     * For more info [read the user guide](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html).
+* **Meta-Data:** you can retrieve the meta-data of a EC2 instance (if logged in) via a fixed URL
+    * Example: curl http://169.254.169.254/latest/meta-data/
+    * you can read more [here](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html)
 
 ## VPC - Virtual Private Cloud
 
